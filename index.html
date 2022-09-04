@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body draggable="false">
+    <div class="container">
+        <h1>Etch-A-Sketch</h1>
+        <div class="main-container">
+            <div class="button-group">
+                <input type="color" id="colorpicker" value="#000000">
+                <div class="slider">
+                    <input type="range" id="rangeinput" min="16" max="64" value="16">
+                    <p id="rangeValue"></p>
+                </div>
+                <button id="colour">Colour mode</button>
+                <button id="rainbow">Rainbow mode</button>
+                <button id="eraser">Eraser</button>
+                <button id="clear">Clear</button>
+            </div>
+            <div class="unselectable etch-a-sketch" draggable="false">
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
